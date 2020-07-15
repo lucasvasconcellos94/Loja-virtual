@@ -1,0 +1,34 @@
+
+-----Banco Comentarios e Produtos----
+Create Database coment;
+
+Create Table comentarios
+(
+id INT PRIMARY KEY AUTO_INCREMENT,
+comentario Varchar(200)
+
+);
+
+Create Table produto
+(
+id INT PRIMARY KEY AUTO_INCREMENT,
+descricao varchar(70),
+valor DOUBLE,
+marca varchar(50),
+url_img varchar(350)
+
+);
+
+----Banco Login e Cruds------
+Create Database conta;
+
+Create Table usuarios
+(
+email Varchar(100),
+senha Varchar(100),
+nome Varchar(100),
+adm int(1),
+id INT(11) PRIMARY KEY AUTO_INCREMENT,
+
+);
+
